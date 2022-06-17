@@ -18,3 +18,13 @@ ios에서는 기본적으로 음악 재생앱과 녹음 앱을 제공합니다. 
 
 ch14장 비디오 재생 앱
 비디오 플레이어는 아이폰 사용자들이 가장 많이 사용하는 앱 중의 하나입니다. 등하굣길인 출퇴근길에 영화르 감상하거나 동영상 강좌를 듣는 사용자들을 쉽게 볼 수 있습니다. 아이폰에서으 비디오 재생 방법을 잘 활용하면 AVPlayerViewController을 이용하여 비디오 재생 앱을 만들 수 있습니다.
+
+기말과제
+
+간단하게 웹뷰를 띄운 다음 import MapKit을 통해 간단하게 맵 지도를 나타낼 수 있습니다. ios14버전 기준 쉽게 표현할 수 있습니다.
+여기서는 MKMapView를 사용하기 때문에 UI에서 사용하던 델리게이트를 모두 받아야 합니다.
+struct MyMapView : UIViewRepresentable
+또한 let locationManager = CLLocationManager()를 통해서 인스턴스를 만들고 위치를 파악할 수 있도록 합니다.
+이 프로젝트에선 중요한것이 Info에서 Privacy - Location when In Use Usage Description 을 통해 현재 어플을 사용할 때 "현재 위치가 필요합니다 허용해주세요"라는 물음을 표현하고 허용하면 현재 위치가 계속 뜨게 됩니다.
+그리고  GPX파일을 새로 만듭니다. 사용자의 위치를 계속 감지하게 됩니다.
+dummylocation에서 사용자가 움직이는 것을 표현할 수도 있게 됩니다.
