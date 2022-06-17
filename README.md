@@ -28,3 +28,4 @@ struct MyMapView : UIViewRepresentable
 이 프로젝트에선 중요한것이 Info에서 Privacy - Location when In Use Usage Description 을 통해 현재 어플을 사용할 때 "현재 위치가 필요합니다 허용해주세요"라는 물음을 표현하고 허용하면 현재 위치가 계속 뜨게 됩니다.
 그리고  GPX파일을 새로 만듭니다. 사용자의 위치를 계속 감지하게 됩니다.
 dummylocation에서 사용자가 움직이는 것을 표현할 수도 있게 됩니다.
+영상강의를 참고하여 프로그래밍하였습니다.
